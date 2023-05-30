@@ -1,7 +1,7 @@
 Algoritmo "semnome"
-// Disciplina   : [Linguagem e Lógica de Programação]
+// Disciplina   : [Linguagem e LÃ³gica de ProgramaÃ§Ã£o]
 // Professor   : JADER JACKSON 
-// Descrição   : Aqui você descreve o que o programa faz! (função)
+// DescriÃ§Ã£o   : Aqui vocÃª descreve o que o programa faz! (funÃ§Ã£o)
 // Autor(a)    : Nome do(a) aluno(a)
 // Data atual  : 30/05/2023
 var
@@ -16,24 +16,26 @@ SENHA,CONFIRMESENHA: REAL
  
    QUANTPESSOAS,SALARIO,VALORPORPESSOA:real
 inicio
-// Seção de Comandos
 
+// INICIACAO DAS VARIAVEIS
  renda1 <-1200
  renda2 <- 5200
  renda3 <- 4800
  renda4 <- 8000
+ //FIM DA INICIALIZACAO DAS VARIAVEIS
 
 
+//INICIO DO SISTEMA
 ESCREVAL("SEJA BEMVINDO")
 ESCREVAL("ENEM 2023")
+
+//INICIO DO CADASTRO DA SENHA
 REPITA
 ESCREVAL("CADASTRE UMA SENHA DE 3 A 9 NUMEROS")
 LEIA(SENHA)
 ESCREVAL("CONFIRME SENHA")
 LEIA(CONFIRMESENHA)
-
 SE SENHA = CONFIRMESENHA ENTAO
-
 ESCREVAL("senha cadastrada com sucesso")
  senao
 se senha <> CONFIRMESENHA entao
@@ -41,7 +43,10 @@ ESCREVAL("senha DIVERJENTE")
 FIMSE
 FIMSE
 ATE SENHA = CONFIRMESENHA
+//FIM DO CADSTRO DA SENHA
 
+
+//INICIO DO CADASTRO SOCIAL
 ESCREVAL("NOME COMPLETO")
 LEIA(NOME)
 ESCREVAL("DIGITE CPF")
@@ -59,9 +64,10 @@ ESCREVAL("DIGITE 3 - QUATRO A SEIS SALARIOS")
 ESCREVAL("DIGITE 4 - ACIMA SEIS SALARIOS")
 LEIA(SALARIO)
 
+
+//FIM DO CADASTRO SOCIAL
 SE SALARIO = 1 ENTAO
 VALORPORPESSOA <- (QUANTPESSOAS / renda1)
-
 	se VALORPORPESSOA > 600 entao
 	ESCREVAL("ISENCAO APROVADA")
 	senao
